@@ -1,0 +1,69 @@
+@import url("base.css");
+/*header*/
+header {
+	width: 100%;
+	height: 0.88rem;
+	background: -webkit-linear-gradient(left, rgb(33,208,252) , rgb(33,234,252)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, rgb(33,208,252) , rgb(33,234,252)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, rgb(33,208,252) , rgb(33,234,252)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, rgb(33,208,252) , rgb(33,234,252));
+    padding: 0 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+header a {
+	/*width: 2.3rem;*/
+	height: 0.35rem;
+	color: #fff;
+	font-size: 0.28rem;
+}
+header input{
+	width: 5rem;
+	height: 0.56rem;
+	background-color: #fefefe;
+	border-radius: 0.28rem;	
+	border: none;
+	padding-left: 0.2rem;
+}
+header a{
+	font-size: 0.28rem;
+	color: #fff;
+}
+/*list*/
+.list {
+	width: 100%;
+	margin-top: 0.88rem;
+	padding: 0.48rem 0.25rem;
+}
+.list h6 {
+	font-size: 0.28rem;
+	margin-bottom: 0.2rem;
+	font-weight: 300;
+}
+.list ul {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.list li {
+	padding: 0.1rem 0.15rem;
+	background-color: #F4F4F4;
+	font-size: 0.24rem;
+	margin-right: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+.list li a {
+	display: block;
+}
+.list li:first-child {
+	background-color: rgba(0,0,255,0.2);
+}
+.list li:first-child a {
+	color: blue;
+}

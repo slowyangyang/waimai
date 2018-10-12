@@ -1,0 +1,346 @@
+@import url("base.css");
+/*header开始*/
+header {
+	width: 100%;
+	height: 0.88rem;
+	background: -webkit-linear-gradient(left, rgb(33,208,252) , rgb(33,234,252)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, rgb(33,208,252) , rgb(33,234,252)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, rgb(33,208,252) , rgb(33,234,252)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, rgb(33,208,252) , rgb(33,234,252));
+    padding: 0 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+header > .position {
+	width: 2.3rem;
+	height: 0.35rem;
+	
+}
+.position a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 0.28rem;
+}
+header > .search {
+	width: 3.5rem;
+	height: 0.56rem;
+	background-color: #fefefe;
+	border-radius: 0.28rem;	
+}
+.search a {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	font-size: 0.2rem;
+	padding-left: 0.2rem;
+}
+/*header结束*/
+
+/*banner开始*/
+.banner {
+	width: 7rem;
+	height: 3.5rem;
+	margin: 1.12rem auto 0.24rem;
+	position: relative;
+}
+.imgbox , .imgbox li ,.imgbox li a img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 0.2rem;
+}
+.imgbox li img {
+	opacity: 0;
+	transition: all .5s;
+}
+.imgbox li a {
+	display: block;
+}
+.imgbox li a , .imgbox li a img {
+	float: left;
+}
+.btns {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0.4rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 0.81rem;
+	height: 0.04rem;
+	display: flex;
+	justify-content: space-between;
+}
+.btns  li {
+	width: 0.23rem;
+	height: 0.04rem;
+	border-radius: 0.02rem;
+	background-color: #fff;
+	cursor: pointer;
+}
+.btns .active {
+	background-color: #1997fd;
+}
+/*banner结束*/
+
+/*分类开始*/
+.category {
+	width: 100%;
+	height: 3.36rem;
+}
+.category ul {
+	width: 100%;
+	height: 3.36rem;
+	text-align: center;
+}
+.category li a{
+	display: block;
+	width: 25%;
+	height: 1.68rem;
+	float: left;
+	font-size: 0.24rem;
+	color: #737373;
+}
+.category li img {
+	width: 1.18rem;
+	height: 1.18rem;
+	/*margin-bottom: 0.01rem;*/
+}
+/*分类结束*/
+/*商家推荐开始*/
+.sjtj {
+	width: 100%;
+	height: 0.7rem;
+	padding-top: 0.24rem;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.sjtj ul {
+	display: flex;
+	justify-content: center;
+}
+.sjtj li h2 {
+	font-size: 0.26rem;
+}
+.sjtj li img {
+	width: 1.45rem;
+	height: 0.2rem;
+	margin: 0.05rem 0.2rem;
+	float: left;
+}
+.sjtj-bottom {
+	font-size: 0.22rem;
+	color: #fee2ea;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0.05rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+.pxfs {
+	width: 7rem;
+	height: 0.44rem;
+	margin: 0 auto;
+}
+.pxfs ul {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.pxfs li a i {
+	font-size: 0.24rem;
+}
+.pxfs li a {
+	display: block;
+	font-size: 0.24rem;
+	color: #737373;
+	float: left;
+	text-align: center;
+	opacity: 0.6;
+}
+.pxfs li:nth-child(1) a {
+	font-weight: bold;
+	color: #585858;
+	opacity: 2;
+}
+.main {
+	width: 100%;
+	height: 8.54rem;
+	background-color: #f4f4f4;
+	padding-top: 0.24rem;
+	overflow: hidden;
+}
+.main-1 {
+	width: 7rem;
+	margin: 0 auto;
+}
+.main-1-1 {
+	width: 100%;
+	height: 2.2rem;
+	background-color: #fff;
+	margin-bottom: 0.24rem;
+	/*position: relative;*/
+	border-radius: 0.1rem;
+}
+.main li a {
+	width: 100%;
+	height: 100%;
+	padding: 0.24rem;
+	display: flex;
+}
+.main-img {
+	width: 1.42rem;
+	height: 1.42rem;
+	/*background-color: #0086B3;*/
+	margin-right: 0.18rem;
+}
+.main-img img {
+	width: 100%;
+	height: 100%;
+}
+.main-text {
+	flex: 1;
+	height: 100%;
+	/*background-color: #1997FD;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+}
+.main-text h2 {
+	font-size: 0.28rem;
+	float: left;
+	overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.star {
+	width: 0.7rem;
+	height: 0.14rem;
+	position: relative;	
+}
+.star .stargrgy {
+	width: 0.7rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.star .star5 {
+	width: 0.7rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.star img {
+	width: 0.7rem;
+	height: 100%;
+	float: left;
+}
+.text-1 {
+	font-size: 0.22rem;
+	color: rgba(0,0,0,0.4);
+	overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.text-1 span {
+	margin-right: 0.1rem;
+}
+.text-2 {
+	font-size: 0.22rem;
+	color: rgba(0,0,0,0.4);
+}
+.text-3 {
+	font-size: 0.18rem;
+}
+.text-3 span {
+	display: inline-block;
+	border: 0.01rem solid #fe0000;
+	color: #fe0000;
+	font-size: 0.2rem;
+}
+.main-right {
+	flex: 1;
+	height: 100%;
+	/*background-color: #1997FD;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+	position: relative;
+}
+.main-right-1 {
+	float: right;
+	font-size: 0.22rem;
+	color: rgba(0,0,0,0.4);
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.main-right-2 {
+	float: right;
+	font-size: 0.22rem;
+	color: rgba(0,0,0,0.4);
+	position: absolute;
+	right: 0;
+	top: 0.3rem;
+}
+.main-right-3 {
+	background-color: #1fa7fc;
+	font-size: 0.22rem;
+	width: 1.51rem;
+	color: #fff;
+	text-align: center;
+	border-radius: 0.08rem;
+	position: absolute;
+	right: 0;
+	top: 0.8rem;
+}
+/*底部状态栏开始*/
+footer {
+	width: 100%;
+	height: 0.98rem;
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	border-top: 0.01rem solid rgba(0,0,0,0.1);
+	background-color: #fff;
+}
+footer ul {
+	width: 100%;
+	height: 100%;
+}
+footer li a {
+	display: block;
+	width: 25%;
+	height: 100%;
+	font-size: 0.36rem;
+	float: left;
+	color: #000;
+	opacity: 0.4;
+	padding-top: 0.15rem;
+	padding-bottom: 0.13rem;
+}
+footer li a p {
+	font-size: 0.22rem;
+}
+footer li:first-child a {
+	color: rgb(33,208,252);
+	opacity: 1;
+}

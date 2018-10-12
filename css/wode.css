@@ -1,0 +1,222 @@
+@import url("base.css");
+body , html {
+	background-color: #F4F4F4;
+}
+/*header开始*/
+header {
+	width: 100%;
+	height: 0.88rem;
+	background: -webkit-linear-gradient(left, rgb(33,208,252) , rgb(33,234,252)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, rgb(33,208,252) , rgb(33,234,252)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, rgb(33,208,252) , rgb(33,234,252)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, rgb(33,208,252) , rgb(33,234,252));
+    font-size: 0.3rem;
+    line-height: 0.88rem;
+    color: #fff;
+    padding:0 0.25rem;
+    text-align: center;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 990;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+header ul i {
+	color: #fff;
+	font-size: 0.3rem;
+}
+header ul li:nth-child(2) {
+	margin-right: -70%;
+}
+/*个人信息开始*/
+.grxx {
+	width: 100%;
+	height: 1.79rem;
+	background: -webkit-linear-gradient(left, rgb(33,208,252) , rgb(33,234,252)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, rgb(33,208,252) , rgb(33,234,252)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, rgb(33,208,252) , rgb(33,234,252)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, rgb(33,208,252) , rgb(33,234,252));
+    padding: 0 0.25rem;
+    margin-top: 0.88rem;
+}
+.grxx-1 {
+	width: 100%rem;
+	height: 1.54rem;
+	background-color: #fff;
+	border-radius: 0.2rem;
+	padding: 0.24rem;
+	display: flex;
+}
+.imgthumb {
+	width: 1.03rem;
+	height: 1.03rem;
+	margin-right: 0.24rem;
+}
+.imgthumb img {
+	width: 100%;
+	height: 100%;
+}
+.info {
+	flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 0.24rem;
+}
+.name {
+	font-size: 0.28rem;
+	font-weight: bold;
+	color: #21c6fc;
+}
+.vip {
+	width: 100%;
+}
+.vip span {
+	display: inline-block;
+	width: 0.47rem;
+	height: 0.22rem;
+	background-color: #21abfc;
+	font-size: 0.18rem;
+	color: #fff;
+	border-radius: 0.11rem;
+	text-align: center;
+	line-height: 0.22rem;
+}
+.star {
+	display: inline-block;
+	width: 0.66rem;
+	height: 0.24rem;
+}
+.star img {
+	width: 100%;
+	height: 100%;
+}
+.number {
+	color: rgba(0,0,0,0.5);
+}
+.btns {
+	font-size: 0.25rem;
+	line-height: 1.06rem;
+}
+.btns a {
+	color: rgba(0,0,0,0.5);
+}
+/*钱包开始*/
+.money {
+	width: 7rem;
+	height: 1.2rem;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 0.2rem;
+	padding: 0.24rem;
+	display: flex;
+	justify-content: space-between;
+}
+.qianbao {
+	font-size: 0.24rem;
+	text-align: center;
+	height: 100%;
+}
+.qianbao-text span:first-child {
+	font-size: 0.3rem;
+	color: #FF0000;
+}
+.qianbao-text span:last-child {
+	font-size: 0.2rem;
+	color: rgba(0,0,0,0.8);
+}
+.qianbao-img span:first-child i {
+    font-size: 0.22rem;
+    color: #21abfc;
+}
+.qianbao-img span:last-child {
+	color: rgba(0,0,0,0.5);
+}
+/*列表开始*/
+.list {
+	width: 7rem;
+	height: 2.7rem;
+	background-color: #fff;
+	margin: 0.24rem 0.25rem;
+	border-radius: 0.2rem;
+}
+.list-1 {
+	width: 100%;
+	height: 100%;
+}
+.list-1 li {
+	width: 100%;
+	height: 0.9rem;
+	border-bottom: 0.01rem solid rgba(0,0,0,0.1);
+	padding: 0 0.24rem;
+	line-height: 0.9rem;
+	font-size: 0.22rem;
+}
+.list-1 li:first-child span:first-child i{
+	font-size: 0.32rem;
+	margin-right: 0.05rem;
+	color: #21ABFC;
+}
+.list-1 li:first-child span:last-child {
+	font-size: 0.22rem;
+	color: rgba(0,0,0,0.8);
+}
+.list-1 li:nth-child(2) span:first-child i{
+	font-size: 0.32rem;
+	margin-right: 0.05rem;
+	color: #fc1a5a;
+}
+.list-1 li:nth-child(2) span:last-child {
+	font-size: 0.22rem;
+	color: rgba(0,0,0,0.8);
+}
+.list-1 li:nth-child(3) {
+	border-bottom: none;
+}
+.list-1 li:nth-child(3) span:first-child i{
+	font-size: 0.32rem;
+	margin-right: 0.05rem;
+	color: #36fc82;
+}
+.list-1 li:nth-child(3) span:last-child {
+	font-size: 0.22rem;
+	color: rgba(0,0,0,0.8);
+}
+/*底部状态栏开始*/
+footer {
+	width: 100%;
+	height: 0.98rem;
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	border-top: 0.01rem solid rgba(0,0,0,0.1);
+	background-color: #fff;
+}
+footer ul {
+	width: 100%;
+	height: 100%;
+}
+footer li a {
+	display: block;
+	width: 25%;
+	height: 100%;
+	font-size: 0.36rem;
+	float: left;
+	color: #000;
+	opacity: 0.4;
+	padding-top: 0.15rem;
+	padding-bottom: 0.13rem;
+}
+footer li a p {
+	font-size: 0.22rem;
+}
+footer li:nth-child(2) a {
+	color: rgb(33,208,252);
+	opacity: 1;
+}

@@ -1,0 +1,230 @@
+@import url("base.css");
+/*header开始*/
+header {
+	width: 100%;
+	height: 2rem;
+	background: -webkit-linear-gradient(left, rgb(33,208,252) , rgb(33,234,252)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, rgb(33,208,252) , rgb(33,234,252)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, rgb(33,208,252) , rgb(33,234,252)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, rgb(33,208,252) , rgb(33,234,252));
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header-top {
+	width: 7rem;
+	height: 1.2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.32rem;
+	color: #fff;
+	font-weight: bold;
+	margin: 0 0.25rem;
+}
+.header-top i {
+	font-size: 0.32rem;
+	color: #fff;
+}
+.header-top li:nth-child(2) {
+	margin-left: -60%;
+}
+.header-bottom {
+	width: 100%;
+	height: 0.8rem;
+}
+.header-bottom-1 {
+	height: 100%;
+	font-size: 0.24rem;
+	white-space: nowrap;
+	padding-left: 0.25rem;
+	overflow: hidden;
+}
+.header-bottom li {
+	display: inline-block;
+	height: 100%;
+	line-height: 0.8rem;
+	border-bottom: 0.1rem solid rgba(0,0,0,0);
+	margin-right: 0.2rem;
+}
+.header-bottom li a {
+	display: block;
+	width: 100%;
+	height: 0.8rem;
+	color: #fff;
+	border-bottom: 2px;
+	opacity: 0.5;
+	/*white-space: nowrap;*/
+}
+.header-bottom-1 > li:first-child > a{
+	color: #fff;
+	opacity: 2;
+	border-bottom: 0.1rem solid #fff;
+}
+/*header结束*/
+/*排序方式开始*/
+.pxfs {
+	width: 100%;
+	height: 0.6rem;
+	border-bottom: 0.01rem solid rgba(0,0,0,0.2);
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+	position: fixed;
+	top: 2rem;
+	left: 0;
+	background-color: #fff;
+}
+.pxfs ul {
+	width: 7rem;
+	height: 100%;
+	font-size: 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+.pxfs li {
+	/*width: 25%;*/
+	height: 100%;
+	color: rgba(0,0,0,0.8);
+	line-height: 0.6rem;
+}
+.pxfs li i {
+	font-size: 0.24rem;
+}
+/*商家列表开始*/
+.main {
+	width: 100%;
+	height: 10.74rem;
+	margin-top: 2.6rem;
+	overflow: hidden;
+}
+.main-1 {
+	width: 100%;
+	margin: 0 auto;
+}
+.main-1-1 {
+	width: 100%;
+	height: 2rem;
+	background-color: #fff;
+	margin-bottom: 0.24rem;
+	/*position: relative;*/
+	border-radius: 0.1rem;
+	border-bottom: 0.01rem solid rgba(0,0,0,0.1);
+	padding: 0.24rem 0.24rem;
+}
+.main li a {
+	width: 100%;
+	height: 100%;
+	/*padding: 0.24rem;*/
+	display: flex;
+}
+.main-img {
+	width: 1.42rem;
+	height: 1.42rem;
+	/*background-color: #0086B3;*/
+	margin-right: 0.18rem;
+}
+.main-img img {
+	width: 100%;
+	height: 100%;
+}
+.main-text {
+	flex: 1;
+	height: 100%;
+	/*background-color: #1997FD;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+}
+.main-text h2 {
+	font-size: 0.28rem;
+	float: left;
+	overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.star {
+	width: 0.7rem;
+	height: 0.14rem;
+	position: relative;	
+}
+.star .stargrgy {
+	width: 0.7rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.star .star5 {
+	width: 0.7rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.star img {
+	width: 0.7rem;
+	height: 100%;
+	float: left;
+}
+.text-1 {
+	font-size: 0.22rem;
+	color: rgba(0,0,0,0.4);
+	overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.text-1 span {
+	margin-right: 0.1rem;
+}
+.text-2 {
+	font-size: 0.22rem;
+	color: rgba(0,0,0,0.4);
+}
+.text-3 {
+	font-size: 0.18rem;
+}
+.text-3 span {
+	display: inline-block;
+	border: 0.01rem solid #fe0000;
+	color: #fe0000;
+	font-size: 0.2rem;
+}
+.main-right {
+	flex: 1;
+	height: 100%;
+	/*background-color: #1997FD;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+	position: relative;
+}
+.main-right-1 {
+	float: right;
+	font-size: 0.22rem;
+	color: rgba(0,0,0,0.4);
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.main-right-2 {
+	float: right;
+	font-size: 0.22rem;
+	color: rgba(0,0,0,0.4);
+	position: absolute;
+	right: 0;
+	top: 0.3rem;
+}
+.main-right-3 {
+	background-color: #1fa7fc;
+	font-size: 0.22rem;
+	width: 1.51rem;
+	color: #fff;
+	text-align: center;
+	border-radius: 0.08rem;
+	position: absolute;
+	right: 0;
+	top: 0.8rem;
+}

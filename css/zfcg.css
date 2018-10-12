@@ -1,0 +1,66 @@
+@import url("base.css");
+/*header开始*/
+header {
+	width: 100%;
+	height: 8.42rem;
+	position: relative;
+}
+.header-img {
+	width: 100%;
+	height: 100%;
+}
+header img {
+	width: 100%;
+	height: 100%;
+}
+.header-text {
+	font-size: 0.36rem;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	top: 1.55rem;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header-text li:nth-child(2) {
+	font-size: 0.38rem;
+	font-weight: bold;
+}
+.header-text li:last-child {
+	font-size: 0.24rem;
+	opacity: 0.8;
+}
+/*按钮开始*/
+.btns {
+	width: 4.7rem;
+	height: 0.68rem;
+	margin: 1.5rem auto;
+}
+.btns ul {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.btns ul li a {
+	display: block;
+	width: 1.68rem;
+	height: 0.68rem;
+	font-size: 0.24rem;
+	color: #fff;
+	background: -webkit-linear-gradient(left, rgb(88,193,253) , rgb(77,217,253)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, rgb(88,193,253) , rgb(77,217,253)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, rgb(88,193,253) , rgb(77,217,253))); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, rgb(88,193,253) , rgb(77,217,253)));
+    border-radius: 0.34rem;
+    line-height: 0.68rem;
+    text-align: center;
+}
+.btns li:last-child a {
+	background: -webkit-linear-gradient(left, rgb(25,253,223) , rgb(33,249,252)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, rgb(25,253,223) , rgb(33,249,252)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, rgb(25,253,223) , rgb(33,249,252)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, rgb(25,253,223) , rgb(33,249,252));
+}

@@ -1,0 +1,130 @@
+@import url("base.css");
+/*header*/
+header {
+	width: 1.77rem;
+	height: 1.77rem;
+	margin: 1.26rem auto;
+}
+header img {
+	width: 100%;
+	height: 100%;
+}
+/*登录框*/
+.denglu {
+	width: 6.33rem;
+	margin: auto;
+	margin-bottom: 0.77rem;
+}
+.lan {
+	width: 5.89rem;
+	height: 0.17rem;
+	background-color: #2ec9fc;
+	margin: 0 auto;
+	border-top-left-radius: 0.2rem;
+	border-top-right-radius: 0.2rem;
+}
+.denglu-1 {
+	width: 100%;
+	padding: 0.88rem 0.62rem;
+	border-radius: 0.2rem;
+	box-shadow: 0.01rem 0.01rem 0.6rem 0.01rem rgba(0,0,0,0.2);
+}
+.denglu-1 ul {
+	width: 100%;
+	height: 100%;
+}
+.denglu-1 li {
+	width: 100%;
+	height: 0.54rem;
+	border: 0.01rem solid rgba(0,0,0,0.1);
+	border-radius: 0.27rem;
+	display: flex;
+	justify-content: flex-start;
+}
+.denglu-1 input {
+	border: none;
+	height: 0.5rem;
+	margin: auto 0;
+	font-size: 0.2rem;
+	line-height: 0.5rem;
+	border-radius: 0.25rem;
+	flex: 1;
+}
+.zhuangshi {
+	width: 0.36rem;
+	height: 0.1rem;
+	background-color: #1ff1e7;
+	border-radius: 0.5rem;
+	margin: 0.22rem 0.1rem 0.22rem 0.19rem;
+}
+.denglu-1 li:first-child {
+	margin-bottom: 0.76rem;
+}
+.denglu-1 li:nth-child(3) {
+	width: 100%;
+	background-color: rgba(0,0,0,0.1);
+	font-size: 0.24rem;
+	border: none;
+	margin-top: 0.38rem;
+	margin-bottom: 0.27rem;
+} 
+.denglu-1 li:nth-child(3) a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.54rem;
+}
+.info {
+	width: 100%;
+	font-size: 0.22rem;
+	display: flex;
+	justify-content: space-between;
+}
+.info a {
+	color: rgba(0,0,0,0.4);
+	font-size: 0.22rem;
+}
+/*第三方登陆*/
+.sjtj {
+	width: 100%;
+	height: 0.7rem;
+	padding-top: 0.24rem;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.sjtj ul {
+	display: flex;
+	justify-content: center;
+}
+.sjtj li h2 {
+	font-size: 0.26rem;
+}
+.sjtj li img {
+	width: 1.45rem;
+	height: 0.2rem;
+	margin: 0.05rem 0.2rem;
+	float: left;
+}
+.disanfang {
+	width: 3rem;
+	height: 0.59rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.disanfang a i {
+	font-size: 0.59rem;
+}
+.disanfang a:first-child i {
+	color: #41bafc;
+}
+.disanfang a:nth-child(2) i {
+	color: #4cf452;
+}
+.disanfang a:last-child i {
+	color: #fa6269;
+}
